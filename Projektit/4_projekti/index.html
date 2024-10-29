@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Seminaari: Modern IT & Innovations</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Event Details Section -->
+  <section class="bgimg">
+    <header class="event-info">
+      <h1>Modern IT & Innovations Seminar 2024</h1>
+      <p>Welcome to the Modern IT & Innovations Seminar, where industry leaders gather to discuss the latest trends in technology and innovation. <br> 
+      This seminar is suitable for both professionals and students who want to keep up with current trends.</p>
+      <h3>Date: June 15, 2024</h3>
+      <p>Location: Keuda Kerava Keskikatu</p>
+      <h3>Price:
+        <ul>
+          <li>Professionals: 150€</li>
+          <li>Students: 50€</li>
+        </ul>
+      </h3>
+    </header>
+  </section>
+
+  <!-- Registration Form Section -->
+  <section class="registration-form">
+    <h2>Sign Up for the Seminar</h2>
+    <form action="#" method="POST">
+      <!-- Name Section -->
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required>
+
+      <label for="firstname">First Name(s):</label>
+      <input type="text" id="firstname" name="firstname" required>
+
+      <!-- Address Section -->
+      <h3>Address Information</h3>
+      <label for="street">Street Address:</label>
+      <input type="text" id="street" name="street" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="postalcode">Postal Code:</label>
+      <input type="text" id="postalcode" name="postalcode" required>
+
+      <!-- Contact Information -->
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Professional Information -->
+      <h3>Work/School Information</h3>
+      <label for="employer">Employer or School (if student):</label>
+      <input type="text" id="employer" name="employer" required>
+
+      <label for="jobtitle">Job Title (or "Student"):</label>
+      <input type="text" id="jobtitle" name="jobtitle" required>
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <!-- Event Pricing Options -->
+      <label for="pricing">Pricing Options:</label>
+      <select id="pricing" name="pricing" required>
+        <option value="Select price">Select Price Option</option>
+        <option value="professional">Professional - 150€</option>
+        <option value="student">Student - 50€</option>
+      </select>
+
+      <!-- Dietary Restrictions -->
+      <label for="diet">Dietary Restrictions:</label>
+      <input type="text" id="diet" name="diet">
+
+      <!-- Additional Information -->
+      <label for="additional">Additional Information:</label>
+      <textarea id="additional" name="additional"></textarea>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+</body>
+</html>

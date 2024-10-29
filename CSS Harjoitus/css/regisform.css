@@ -1,0 +1,56 @@
+form {
+  display: block;
+  font-size: 16px;
+  margin-top: 0px;
+}
+table {
+  border-bottom-color: rgb(128, 128, 128);
+  border-bottom-width: 3px;
+  border-collapse: separate;
+  border-left-color: rgb(128, 128, 128);
+  border-left-width: 3px;
+  border-right-color: rgb(128, 128, 128);
+  border-right-width: 3px;
+  border-top-color: rgb(128, 128, 128);
+  border-top-width: 3px;
+  box-sizing: border-box;
+  display: table;
+  font-size: 16px;
+}
+tr {
+  border-bottom-color: rgb(128, 128, 128);
+  border-collapse: separate;
+  border-left-color: rgb(128, 128, 128);
+  border-right-color: rgb(128, 128, 128);
+  border-top-color: rgb(128, 128, 128);
+  display: table-row;
+  vertical-align: middle;
+}
+th {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  font-weight: '700';
+  background-color: rgb(255, 255, 170);
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: separate;
+  display: table-cell;
+  border: 1px solid black;
+}
+td {
+  width: 150px;
+  border: 1px black solid;
+  background-color: rgb(0, 204, 255);
+  border-collapse: separate;
+  display: table-cell;
+  font-size: 16px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+button {
+  width: 130px;
+  padding: 6px;
+}

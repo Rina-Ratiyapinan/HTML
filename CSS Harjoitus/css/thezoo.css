@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+body {
+  background-color: #FADFAD;
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#container {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-left: 2px solid #4A5D23;
+  border-right: 2px solid #4A5D23;
+  padding: 10px;
+}
+#header h1 {
+  font-weight: 900;
+}
+#header p {
+  font-weight: 500;
+}
+
+#menu {
+  width: 170px;
+  float: left;
+}
+#menu ul {
+  padding: 0;
+  list-style-type: none;
+}
+#menu li {
+  background-color: #FADFAD;
+  border: 1px solid #013220;
+  padding: 3px;
+  margin: 4px;
+  font-weight: 500;
+}
+#menu a:link {
+  color: #013220;
+  text-decoration-line: none;
+}
+#menu a:hover {
+  color: #007FFF;
+}
+#main {
+  margin-left: 190px;
+}
+#main img {
+  float: right;
+  width: 40%;
+  border: 2px solid #013220;
+}
+#main a:link {
+  color: #7C0902;
+  text-decoration-line: none;
+}
+#main a:hover {
+  color: #007FFF;
+}
+#footer {
+  background-color: #58111A;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  height: 40px;
+  text-align: center;
+}
+#footer a:link {
+  color: #E44D2E;
+}
+#footer a:hover {
+  color: #007FFF;
+}
+
+

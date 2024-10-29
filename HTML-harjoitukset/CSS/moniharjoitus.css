@@ -1,0 +1,13 @@
+body { 
+  width: 1000px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+table, tr, th, td{ 
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+img{
+  width: 200px;
+  height: 200px;
+}

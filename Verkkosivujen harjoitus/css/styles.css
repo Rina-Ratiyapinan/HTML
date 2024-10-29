@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #fff;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto 0px auto;
+  display: block;
+  cursor: pointer;
+}
+
+.cat img {
+width: 30%;
+}
+
+.portraitphoto {
+width: 30%;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: black;
+  margin-top: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .header {
+    text-align: right;
+  }
+  .header h1{
+    font-size: 15px;¨
+  }
+  .logo img {
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+  }
+}
+

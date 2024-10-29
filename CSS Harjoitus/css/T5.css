@@ -1,0 +1,32 @@
+main{
+  display: grid;
+  background-color: yellow;
+  padding: 20px;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+aside, article{
+  background-color: aqua;
+  padding: 10px;
+}
+header, footer{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 10px;
+  background-color: chartreuse;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin-left: -20px;
+  margin-right: 20px;
+}
+img{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 25%;
+}

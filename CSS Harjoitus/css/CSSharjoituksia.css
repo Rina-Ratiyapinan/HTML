@@ -1,0 +1,75 @@
+#t1 {
+  height: 200px;
+  width: 50%;
+  background-color: yellow;
+  border: 5px solid black;
+  margin: 70px 50px;
+  padding: 30px;
+  margin: auto;
+}
+
+#t2 {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: greenyellow;
+  color: red;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+#t1st {
+  background-color: pink;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+}
+#t2nd {
+  background-color: blueviolet;
+  padding: 20px;
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
+#t3rd {
+  height:100px;
+  width: 40%;
+  overflow: scroll;
+}
+#t4th {
+  width: 40%;
+  background-color: azure;
+  padding: 20px;
+  float: left;
+}
+#t5th {
+  width: 40%;
+  background-color: tan;
+  padding: 20px;
+  float: right;
+}
+#t6th {
+  width: 40%;
+  background-color: aqua;
+  padding: 20px;
+  clear: both;
+}
+
+#t4 {
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#para::first-line {
+  color: green;
+  font-size: 28px;
+}
+
+#para + p {
+  background-color: aqua;
+}
+p[title="para"]{
+  font-weight: 900;
+}

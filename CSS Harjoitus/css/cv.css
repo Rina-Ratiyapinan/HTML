@@ -1,0 +1,168 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8; 
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px;
+  text-transform: uppercase;
+  color: #000; /* Text color for the header title */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Adjust spacing between the links */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000; /* Color of the nav links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #6200ee; /* Color on hover */
+}
+
+.intro {
+  background-color: #fff;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.intro .logo-circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.intro .text-content {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.text-content h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: left;
+}
+
+.welcome-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #5a4033;
+  color: #5a4033;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.welcome-button:hover {
+  background-color: #5a4033;
+  color: white;
+}
+
+.about {
+  margin: 40px;
+}
+.about h2 {
+  font-size: 4rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+.about {
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+
+.experience h2 {
+  font-size: 4rem;
+}
+.experience {
+  background-color: #fff;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  }
+
+  .skills h2 {
+    font-size: 4rem;
+  }
+  .column h3 {
+    font-size: 2rem;
+  }
+  .skills {
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
