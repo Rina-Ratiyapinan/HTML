@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.task {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  float:left;
+}
+
+.task1{
+  background-color: orange;
+  padding: 10px;
+  margin: 10px;
+}
+.task2{
+  background-color: #FFCCCC;
+  padding: 10px;
+  margin: 10px;
+}
+.task3{
+    background-color: #FFFF99;
+    padding: 10px;
+    margin: 10px;
+}
+.task4{
+    background-color: #B3FFB3;
+    padding: 10px;
+    margin: 10px;
+}
+.task5{
+    background-color: #B3D1FF;
+    padding: 10px;
+    margin: 10px;
+}
+.task6{
+  background-color: #9DF9EF;
+  padding: 10px;
+  margin: 10px;
+}
+.task7{
+  background-color: #EDF7F6;
+  padding: 10px;
+  margin: 10px;
+}
+.task8{
+  background-color: #FFA8B5;
+  padding: 10px;
+  margin: 10px;
+}
+.task9{
+  background-color: #d0bdf4;
+  padding: 10px;
+  margin: 10px;
+}
+.task10{
+  background-color: #fceed1;
+  padding: 10px;
+  margin: 10px;
+}
+.task11{
+  background-color: #39a0ca;
+  padding: 10px;
+  margin: 10px;
+}
+

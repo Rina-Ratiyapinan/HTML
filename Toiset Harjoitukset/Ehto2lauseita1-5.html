@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ehto2lauseita1-5</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Ehto2lauseita1 -->
+    <div id="ehto1">
+        <h1>Tarkista Positiivinen tai Negatiivinen Luku</h1>
+        <label for="numberInput">Syötä luku</label>
+        <input type="number" id="numberInput" />
+        <button onclick="checkNumber()">Tarkista</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- Ehto2lauseita2 -->
+    <div id="ehto2">
+        <h1>Tarkista Viikonpäivä</h1>
+        <label for="dayNumber">Syötä viikonpäivän numero (1-7):</label>
+        <input type="number" id="dayNumber" min="1" max="7" />
+        <button onclick="checkDay()">Tarkista</button>
+        <p id="dayResult"></p>
+    </div>
+
+    <!-- Ehto2lauseita3 -->
+    <div id="ehto3">
+        <h1>Karkausvuosi Tarkistus</h1>
+        <label for="yearInput">Syötä vuosi:</label>
+        <input type="number" id="yearInput" />
+        <button onclick="checkLeapYear()">Tarkista</button>
+        <p id="leapResult"></p>
+    </div>
+
+    <!-- Ehto2lauseita4 -->
+    <div id="ehto4">
+        <h1>Laske Summa ja Keskiarvo</h1>
+        <label>Syötä 5 lukua (erottele pilkuilla):</label>
+        <input type="text" id="numbersInput" placeholder="Esim. 1, 2, 3, 4, 5"/>
+        <button onclick="calculateSumAndAverage()">Laske</button>
+        <p id="laskeResult"></p>
+    </div>
+
+    <!-- Ehto2lauseita5 -->
+    <div id="ehto5">
+        <h1>Laskutoimitus</h1>
+        <label for="lukuInput">Anna numero:</label>
+        <input type="number" id="lukuInput" name="luku" />
+        <button onclick="calculateLause()">Laske</button>
+
+        <div>
+            <p id="lause1Result"></p>
+            <p id="lause2Result"></p>
+            <p id="lause3Result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

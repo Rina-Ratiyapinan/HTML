@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Neljännet harjoitukset</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!--Tehtävä 1: Scrabble Calculator-->
+        <div class="task" id="task1">
+            <h2>Tehtävä 1</h2>
+            <p>
+                Tee ohjelma, jolle voi syöttää Scrabble-pelin sanan ja ohjelma
+                laskee kirjaimen pisteet seuraavasti:
+            </p>
+            <ul>
+                <li>A, E, I, N, S, T = 1p</li>
+                <li>Ö, Ä, K, L = 2p</li>
+                <li>U, M = 3p</li>
+                <li>Y, H, J, P, R, V = 4p</li>
+                <li>Ö, D = 7p</li>
+                <li>B, F, G = 8p</li>
+                <li>C = 10p</li>
+                <li>Loput kirjaimet = 12p</li>
+            </ul>
+            <label for="scrabbleWord"
+                >Anna sana, jonka pisteet lasketaan:</label
+            >
+            <input type="text" id="scrabbleWord" />
+            <button onclick="calculateScrabbleScore()">
+                Laske kirjainpisteet
+            </button>
+            <p id="scrabbleResult"></p>
+        </div>
+
+        <!--Tehtävä 2: Lotto Number Generator-->
+        <div class="task" id="task2">
+            <h2>Tehtävä 2</h2>
+            <p>Tee ohjelma, joka arpoo lottorumerot (7 kpl)</p>
+            <button onclick="generateLottoNumbers()">Arvo numerot</button>
+            <p id="lottoResult"></p>
+        </div>
+
+        <!--Tehtävä 3: 2D Array to Table-->
+        <div class="task" id="task3">
+            <h2>Tehtävä 3</h2>
+            <p>
+                Tee ohjelma, joka muuntaa määritetyn (javascriptissä)
+                2-uloitteisen taulukon taulukkomuotoon
+            </p>
+            <p>
+                Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4,
+                28, 14], [3, 10, 26, 7]]
+            </p>
+            <p>Syötä numerot 2D-taulukkoon:</p>
+            <div id="inputGrid">
+                <input type="number" id="row1col1" placeholder="Row 1, Col 1" />
+                <input type="number" id="row1col2" placeholder="Row 1, Col 2" />
+                <input type="number" id="row1col3" placeholder="Row 1, Col 3" />
+                <input type="number" id="row1col4" placeholder="Row 1, Col 4" />
+                <br />
+                <input type="number" id="row2col1" placeholder="Row 2, Col 1" />
+                <input type="number" id="row2col2" placeholder="Row 2, Col 2" />
+                <input type="number" id="row2col3" placeholder="Row 2, Col 3" />
+                <input type="number" id="row2col4" placeholder="Row 2, Col 4" />
+                <br />
+                <input type="number" id="row3col1" placeholder="Row 3, Col 1" />
+                <input type="number" id="row3col2" placeholder="Row 3, Col 2" />
+                <input type="number" id="row3col3" placeholder="Row 3, Col 3" />
+                <input type="number" id="row3col4" placeholder="Row 3, Col 4" />
+                <br />
+                <input type="number" id="row4col1" placeholder="Row 4, Col 1" />
+                <input type="number" id="row4col2" placeholder="Row 4, Col 2" />
+                <input type="number" id="row4col3" placeholder="Row 4, Col 3" />
+                <input type="number" id="row4col4" placeholder="Row 4, Col 4" />
+                <br />
+                <input type="number" id="row5col1" placeholder="Row 5, Col 1" />
+                <input type="number" id="row5col2" placeholder="Row 5, Col 2" />
+                <input type="number" id="row5col3" placeholder="Row 5, Col 3" />
+                <input type="number" id="row5col4" placeholder="Row 5, Col 4" />
+            </div>
+            <button onclick="generateTable()">Muunna taulukoksi</button>
+            <table id="arrayTable"></table>
+        </div>
+
+        <!-- Tehtävä 4: Card Deck Simulation -->
+        <div class="task" id="task4">
+          <h2>Tehtävä 4</h2>
+          <p>Tee ohjelma, joka tekee taulukon kaikista korttipakan korteista ja sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä.</p>
+          <button onclick="drawCards()">Arvo 5 korttia</button>
+          <p id="cardResult"></p>
+      </div>
+        <script src="script.js"></script>
+    </body>
+</html>

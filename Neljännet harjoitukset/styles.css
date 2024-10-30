@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  text-align: left;
+}
+
+#task1 {
+  background-color: #f4a460; 
+}
+
+#task2 {
+  background-color: #f08080;
+}
+
+#task3 {
+  background-color: #f5deb3;
+}
+
+#task4 {
+  background-color: #ffffe0;
+}
+
+table {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  text-align: right;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#inputGrid input {
+  width: 80px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}

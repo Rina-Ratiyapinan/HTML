@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Silmukkat Harjoitukset</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="task">
+            <!-- Tehtävä 1-->
+            <div class="task1">
+                <h2>Tehtävä 1</h2>
+                <p>
+                    Tee ohjelma, joka pyytää käyttäjältä parillista lukua ja
+                    tulostaa tämän jälkeen kaikki parilliset luvut siihen asti
+                    poislukien 0:n
+                </p>
+                <label for="evenNumber">Anna parillinen luku:</label>
+                <input type="text" id="evenNumber" />
+                <button onclick="printEvenNumbers()">Tulosta parilliset</button>
+                <p id="result1"></p>
+            </div>
+
+            <!-- Tehtävä 2-->
+            <div class="task2">
+                <h2>Tehtävä 2</h2>
+                <p>
+                    Kirjoita ohjelma, joka muuntaa käyttäjän antaman sanan
+                    salasanaksi siten, että laittaa joka toiseksi kirjaimeksi
+                    ison Ö-kirjaimen, eli jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ
+                </p>
+                <label for="passwordWord">Anna sana:</label>
+                <input type="text" id="passwordWord" />
+                <button onclick="convertToPassword()">Muuta salasanaksi</button>
+                <p id="result2"></p>
+            </div>
+
+            <!--Tehtävä 3-->
+            <div class="task3">
+                <h2>Tehtävä 3</h2>
+                <p>
+                    Kirjoita ohjelma, joka tarkastaa, onko antamassasi sanassa
+                    ö-kirjainta ja kirjoittaa vastaukseksi joko: on tai ei ole
+                </p>
+                <label for="wordWithO">Anna sana:</label>
+                <input type="text" id="wordWithO" />
+                <button onclick="checkForO()">Onko ö-kirjain</button>
+                <p id="result3"></p>
+            </div>
+
+            <!--Tehtävä 4-->
+            <div class="task4">
+                <h2>Tehtävä 4</h2>
+                <p>
+                    Kirjoita ohjelma, joka laskee annetun luvun kertoman (esim:
+                    4 -> 4*3*2*1 = 24)
+                </p>
+                <label for="factorialNumber"
+                    >Anna luku, josta lasketaan kertoma:</label>
+                <input type="text" id="factorialNumber" />
+                <button onclick="calculateFactorial()">Laske kertoma</button>
+                <p id="result4"></p>
+            </div>
+
+            <!--Tehtävä 5-->
+            <div class="task5">
+                <h2>Tehtävä 5</h2>
+                <p>
+                    Kirjoita ohjelma, joka tulostaa näytölle luvut 1-100,
+                    kuitenkin siten, että jos luku on 3:lla jaollinen,
+                    tulostetaan hip ja 5:llä jaollinen tulostetaan heijaa ja jos
+                    sekä viidellä että kolmella jaollinen, tulostetaan hipheijaa
+                </p>
+                <button onclick="printNumbers()">Tulosta</button>
+                <p id="result5"></p>
+            </div>
+
+            <!--Tehtävä 6-->
+            <div class="task6">
+                <h2>Tehtävä 6</h2>
+                <p>Kirjoita ohjelma, joka tulostaa 10 ensimmäistä numeroa</p>
+                <button onclick="printFirstTen()">
+                    Tulosta 10 Ensimmäistä
+                </button>
+                <p id="result6"></p>
+            </div>
+
+            <!--Tehtävä 7-->
+            <div class="task7">
+                <h2>Tehtävä 7</h2>
+                <p>
+                    Kirjoita ohjelma, joka laskee 10 ensimäistä numeroa yhteen
+                </p>
+                <button onclick="sumFirstTen()">Laske 10 ens. yhteen</button>
+                <p id="result7"></p>
+            </div>
+
+            <!--Tehtävä 8-->
+            <div class="task8">
+                <h2>Tehtävä 8</h2>
+                <p>
+                    Kirjoita ohjelma, joka kysyy käyttäjältä kahta lukuja ja
+                    laskee ensimmäisen potenssiin toinen esim. 5 ja 2 = 5<sup
+                        >2</sup
+                    >
+                    = 25
+                </p>
+                <label for="base">Anna korotettava luku:</label>
+                <input type="number" id="base" />
+                <br /><br>
+                <label for="exponent">Anna potenssi:</label>
+                <input type="number" id="exponent" />
+                <br /><br>
+                <button onclick="calculatePower()">Laske</button>
+                <p id="result8"></p>
+            </div>
+
+            <!--Tehtävä 9-->
+            <div class="task9">
+                <h2>Tehtävä 9</h2>
+                <p>
+                    Kirjoita ohjelma, joka etsii annetusta luvuista suurimman ja
+                    pienimmän arvoa
+                </p>
+                <label for="num1">Anna 1. luku:</label>
+                <input type="number" id="num1" /><br /><br>
+                <label for="num2">Anna 2. luku:</label>
+                <input type="number" id="num2" /><br /><br>
+                <label for="num3">Anna 3. luku:</label>
+                <input type="number" id="num3" /><br /><br>
+                <label for="num4">Anna 4. luku:</label>
+                <input type="number" id="num4" /><br /><br>
+                <label for="num5">Anna 5. luku:</label>
+                <input type="number" id="num5" /><br /><br>
+                <button onclick="findMinMax()">Etsi suurin ja pienin</button>
+                <p id="result9"></p>
+            </div>
+
+            <!--Tehtävä 10-->
+            <div class="task10">
+                <h2>Tehtävä 10</h2>
+                <p>
+                    Muokataan salasalatehtävää siten, että se arpoo kirjaimen
+                    Ö:n sijasta
+                </p>
+                <label for="passwordInput">Anna muokattava salasana:</label>
+                <input type="text" id="passwordInput" />
+                <button onclick="modifyPassword()">Muokkaa salasana</button>
+                <p id="result10"></p>
+            </div>
+
+            <!--Tehtävä 11-->
+            <div class="task11">
+            <h2>Tehtävä 11</h2>
+            <p>
+                Tee ohjelma, joka pyytää käyttäjältä kahta numero ja tulostaa
+                parilliset ja parittomat numerot sekä niiden summat
+            </p>
+            <label for="number1">Anna pienempi numero:</label>
+            <input type="number" id="number1" required /><br /><br>
+            <label for="number2">Anna isompi numero:</label>
+            <input type="number" id="number2" required /><br /><br>
+            <button onclick="findEvenOdd()">
+                nätä parilliset ja parittomat erikseen sekä niiden summa
+            </button>
+            <p id="result11"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

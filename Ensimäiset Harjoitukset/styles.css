@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+
+.task {
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+#task1 {
+  background-color: #ffa500;
+}
+
+#task2 {
+  background-color: #ffcccc;
+}
+
+#task3 {
+  background-color: #ffff99;
+}
+
+#task4 {
+  background-color: #ccffcc;
+}
+
+#task5 {
+  background-color: #99ccff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form button:hover {
+  background-color: #a6a6a6;
+}
+
+p {
+  font-weight: bold;
+}
